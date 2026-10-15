@@ -1,0 +1,18 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local environment & secrets
+.env
+venv/
+.venv/
+
+# Application logs & temporary data
+*.log
+app_data/
+
+# IDE & OS specific files
+.DS_Store
+.idea/
+.vscode/

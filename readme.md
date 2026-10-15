@@ -1,12 +1,13 @@
-## Expense Tracker
+# Smart Expense Tracker & Financial Advisor
 
-Keep track of income and expenses. Add and remove items and save to local storage
+A modular Java-based expense tracking application equipped with file persistence, automated logging, and an intelligent financial insights engine.
 
-## Project Specifications
+## Key Features
+- **Expense Persistence:** Automatically saves and loads historical transactions locally via structured CSV records.
+- **Smart Financial Insights:** Analyzes spending distributions across custom categories and highlights high-spending ratios.
+- **Automated System Logging:** Captures operational activity and system runtime events cleanly in logs.
+- **CI Integration:** Continuous Integration configured via GitHub Actions.
 
-- Create UI for project
-- Display transaction items in DOM
-- Show balance, expense and income totals
-- Add new transation and reflect in total
-- Delete items from DOM
-- Persist to local storage
+## Setup & Run
+1. Compile: javac Main.java app/utils/*.java app/core/*.java
+2. Run: java Main
