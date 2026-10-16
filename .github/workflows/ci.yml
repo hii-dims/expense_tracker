@@ -20,10 +20,5 @@ jobs:
         distribution: 'temurin'
         java-version: '17'
 
-    - name: Compile Java Application
-      run: |
-        javac Main.java app/utils/*.java app/core/*.java
-
-    - name: Run Test Execution
-      run: |
-        java Main
+    - name: Compile with Maven
+      run: mvn clean compile
